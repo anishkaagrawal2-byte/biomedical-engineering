@@ -1,88 +1,68 @@
-<!-- ================= INDEX PAGE ================= -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Biomedical Engineering | Global Knowledge Portal</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <title>Biomedical Engineering Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body{margin:0;font-family:Poppins;background:#eef3f8;color:#1f2933}
+    body{margin:0;font-family:Poppins,sans-serif;background:#eef3f8;color:#1f2933;line-height:1.8}
     header{background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);color:#fff;padding:80px;text-align:center}
-    nav{background:#fff;padding:15px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,.1)}
+    header h1{font-family:Merriweather,serif;font-size:44px;margin-bottom:12px}
+    header p{font-size:18px;opacity:0.9}
+    nav{background:#fff;padding:15px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,.1);position:sticky;top:0;z-index:100}
     nav a{margin:0 15px;text-decoration:none;color:#2c5364;font-weight:600}
-    main{max-width:1200px;margin:auto;padding:50px}
-    section{background:#fff;padding:40px;margin-bottom:40px;border-radius:14px;box-shadow:0 8px 25px rgba(0,0,0,.08)}
+    nav a:hover{text-decoration:underline}
+    main{max-width:1200px;margin:auto;padding:50px 25px}
+    section{background:#fff;padding:45px;margin-bottom:40px;border-radius:14px;box-shadow:0 8px 25px rgba(0,0,0,.08)}
     h2{font-family:Merriweather;color:#203a43}
+    h3{font-size:22px;color:#2c5364;margin-top:30px}
+    ul{margin-left:25px}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
-    .card{background:#f7fafc;padding:25px;border-radius:12px}
-    .card img{width:100%;border-radius:10px}
-    footer{background:#0f2027;color:#fff;text-align:center;padding:25px}
+    .card{background:#f7fafc;padding:25px;border-radius:12px;transition:transform 0.3s}
+    .card:hover{transform:translateY(-10px)}
+    .card img{width:100%;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,.1)}
+    footer{background:#0f2027;color:#fff;text-align:center;padding:30px}
   </style>
 </head>
 <body>
+
 <header>
-  <h1>Biomedical Engineering</h1>
-  <p>Complete Global Academic Knowledge Website</p>
+  <h1>Biomedical Engineering Portal</h1>
+  <p>Comprehensive Global Knowledge Hub</p>
 </header>
+
 <nav>
   <a href="industry.html">Industry</a>
   <a href="future.html">Future Scope</a>
   <a href="imaging.html">Medical Imaging</a>
   <a href="biomaterials.html">Biomaterials</a>
   <a href="ai.html">AI in Healthcare</a>
+  <a href="tissue.html">Tissue Engineering</a>
+  <a href="neural.html">Neural Engineering</a>
 </nav>
+
 <main>
 <section>
-<h2>About This Portal</h2>
-<p>This website contains complete structured knowledge of Biomedical Engineering. Each major topic and sub-topic has a dedicated page containing theory, applications, technologies, examples, and visuals.</p>
+<h2>Welcome to the Biomedical Engineering Portal</h2>
+<p>This portal is designed to provide complete, detailed knowledge about biomedical engineering, including all major domains, technologies, research, industry applications, and future trends. Each domain has a dedicated page with full academic content and images.</p>
 </section>
+
 <section>
 <h2>Main Domains</h2>
 <div class="grid">
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/MRI_brain_sagittal.jpg"><h3>Medical Imaging</h3></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Artificial_hip_joint.jpg"><h3>Biomaterials</h3></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/ECG_heartbeat.svg"><h3>Instrumentation</h3></div>
-<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Da_Vinci_Surgical_System.jpg"><h3>Surgical Robotics</h3></div>
+<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/MRI_brain_sagittal.jpg" alt="Medical Imaging"><h3><a href="imaging.html">Medical Imaging</a></h3></div>
+<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Artificial_hip_joint.jpg" alt="Biomaterials"><h3><a href="biomaterials.html">Biomaterials</a></h3></div>
+<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/ECG_heartbeat.svg" alt="Instrumentation"><h3><a href="instrumentation.html">Instrumentation</a></h3></div>
+<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Da_Vinci_Surgical_System.jpg" alt="Surgical Robotics"><h3><a href="robotics.html">Surgical Robotics</a></h3></div>
+<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Brain_computer_interface.png" alt="Neural Engineering"><h3><a href="neural.html">Neural Engineering</a></h3></div>
+<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Tissue_engineering.jpg" alt="Tissue Engineering"><h3><a href="tissue.html">Tissue Engineering</a></h3></div>
+<div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/AI_healthcare_graph.png" alt="AI in Healthcare"><h3><a href="ai.html">AI in Healthcare</a></h3></div>
 </div>
 </section>
+
 </main>
-<footer>Biomedical Engineering Knowledge Portal</footer>
-</body>
-</html>
+<footer>© 2025 Biomedical Engineering Knowledge Portal</footer>
 
-<!-- ================= INDUSTRY PAGE ================= -->
-<!DOCTYPE html>
-<html lang="en">
-<head><meta charset="UTF-8"><title>Biomedical Industry</title></head>
-<body>
-<h1>Biomedical Engineering Industry</h1>
-<p>The biomedical industry includes medical device manufacturing, biotechnology firms, pharmaceutical companies, diagnostic companies, healthcare IT, and regulatory bodies.</p>
-<h2>Major Sectors</h2>
-<ul>
-<li>Medical Devices & Equipment</li>
-<li>Biotechnology & Genetic Engineering</li>
-<li>Pharmaceutical R&D</li>
-<li>Healthcare Software & AI</li>
-<li>Wearable & Implantable Devices</li>
-</ul>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Medical_devices.jpg" width="400">
-</body>
-</html>
-
-<!-- ================= FUTURE PAGE ================= -->
-<!DOCTYPE html>
-<html lang="en">
-<head><meta charset="UTF-8"><title>Future of Biomedical Engineering</title></head>
-<body>
-<h1>Future Scope of Biomedical Engineering</h1>
-<p>The future of biomedical engineering is driven by AI, digital health, precision medicine, and human-machine integration.</p>
-<ul>
-<li>Artificial Intelligence Diagnostics</li>
-<li>Personalized & Precision Medicine</li>
-<li>Smart Implants & Bioelectronics</li>
-<li>Telemedicine & Remote Monitoring</li>
-<li>Brain-Computer Interfaces</li>
-</ul>
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Brain_computer_interface.png" width="400">
 </body>
 </html>
