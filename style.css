@@ -294,4 +294,84 @@ footer {
   padding: 30px;
   border-radius: 8px;
 }
+/* ========== POLYMERS PAGE DESIGN ========== */
+
+.polymers-page header {
+  background: linear-gradient(to right, #0f4c75, #3282b8);
+  color: #ffffff;
+}
+
+.polymers-page nav {
+  background-color: #eaf4fb;
+}
+
+.polymers-page nav a {
+  color: #0f4c75;
+}
+
+.polymers-page nav a:hover {
+  color: #1b262c;
+}
+
+.polymers-page section h2 {
+  color: #0f4c75;
+  border-left: 5px solid #3282b8;
+}
+
+.polymers-page section h3 {
+  color: #1b262c;
+  margin-top: 20px;
+}
+
+.polymers-page section p,
+.polymers-page li {
+  color: #2c3e50;
+  font-size: 16.5px;
+}
+
+.polymers-page main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+/* ========== CERAMICS PAGE DESIGN ========== */
+
+.ceramics-page header {
+  background: linear-gradient(to right, #7b2cbf, #9d4edd);
+  color: #ffffff;
+}
+
+.ceramics-page nav {
+  background-color: #f4e9fb;
+}
+
+.ceramics-page nav a {
+  color: #5a189a;
+}
+
+.ceramics-page nav a:hover {
+  color: #240046;
+}
+
+.ceramics-page section h2 {
+  color: #5a189a;
+  border-left: 5px solid #9d4edd;
+}
+
+.ceramics-page section h3 {
+  color: #240046;
+  margin-top: 20px;
+}
+
+.ceramics-page section p,
+.ceramics-page li {
+  color: #2d2a32;
+  font-size: 16.5px;
+}
+
+.ceramics-page main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
 
