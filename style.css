@@ -374,4 +374,114 @@ footer {
   padding: 30px;
   border-radius: 10px;
 }
+/* ========== COMPOSITES PAGE DESIGN ========== */
+
+.composites-page header {
+  background: linear-gradient(to right, #2d6a4f, #40916c);
+  color: #ffffff;
+}
+
+.composites-page nav {
+  background-color: #e9f5ef;
+}
+
+.composites-page nav a {
+  color: #2d6a4f;
+}
+
+.composites-page nav a:hover {
+  color: #1b4332;
+}
+
+.composites-page section h2 {
+  color: #2d6a4f;
+  border-left: 5px solid #40916c;
+}
+
+.composites-page section h3 {
+  color: #1b4332;
+  margin-top: 20px;
+}
+
+.composites-page section p,
+.composites-page li {
+  color: #2c3e50;
+  font-size: 16.5px;
+}
+
+.composites-page main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+/* ========== MRI PAGE DESIGN ========== */
+
+.mri-page header {
+  background: linear-gradient(to right, #0a3d62, #3c6382);
+  color: #ffffff;
+}
+
+.mri-page nav {
+  background-color: #e3f2fd;
+}
+
+.mri-page nav a {
+  color: #0a3d62;
+}
+
+.mri-page nav a:hover {
+  color: #1e3799;
+}
+
+.mri-page section h2 {
+  color: #0a3d62;
+  border-left: 5px solid #3c6382;
+}
+
+.mri-page section p,
+.mri-page li {
+  color: #2c3e50;
+  font-size: 16.5px;
+}
+
+.mri-page main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+/* ========== CT SCAN PAGE DESIGN ========== */
+
+.ct-page header {
+  background: linear-gradient(to right, #6a040f, #9d0208);
+  color: #ffffff;
+}
+
+.ct-page nav {
+  background-color: #fdecea;
+}
+
+.ct-page nav a {
+  color: #6a040f;
+}
+
+.ct-page nav a:hover {
+  color: #370617;
+}
+
+.ct-page section h2 {
+  color: #6a040f;
+  border-left: 5px solid #9d0208;
+}
+
+.ct-page section p,
+.ct-page li {
+  color: #2c3e50;
+  font-size: 16.5px;
+}
+
+.ct-page main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
 
