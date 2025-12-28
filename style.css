@@ -484,4 +484,45 @@ footer {
   padding: 30px;
   border-radius: 10px;
 }
+/* ========== AI IN HEALTHCARE PAGE DESIGN ========== */
+
+.ai-page header {
+  background: linear-gradient(to right, #0b525b, #144552);
+  color: #ffffff;
+}
+
+.ai-page nav {
+  background-color: #e6f4f1;
+}
+
+.ai-page nav a {
+  color: #0b525b;
+}
+
+.ai-page nav a:hover {
+  color: #1b3a4b;
+}
+
+.ai-page section h2 {
+  color: #0b525b;
+  border-left: 5px solid #144552;
+}
+
+.ai-page section h3 {
+  color: #1b3a4b;
+  margin-top: 20px;
+}
+
+.ai-page section p,
+.ai-page li {
+  color: #2c3e50;
+  font-size: 16.5px;
+}
+
+.ai-page main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
 
