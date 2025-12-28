@@ -184,4 +184,114 @@ footer {
   padding: 30px;
   border-radius: 8px;
 }
+/* ========== MEDICAL IMAGING PAGE DESIGN ========== */
+
+.medical-imaging-page header {
+  background: linear-gradient(to right, #a8edea, #fed6e3);
+  color: #0f2027;
+}
+
+.medical-imaging-page nav {
+  background-color: #e0f7fa;
+}
+
+.medical-imaging-page nav a {
+  color: #0f2027;
+}
+
+.medical-imaging-page nav a:hover {
+  color: #2c5364;
+}
+
+.medical-imaging-page section h2 {
+  color: #0f2027;
+  border-left: 5px solid #00bcd4;
+}
+
+.medical-imaging-page section p,
+.medical-imaging-page li {
+  color: #1f2a36;
+  font-size: 16.5px;
+}
+
+.medical-imaging-page main {
+  background-color: #f0fcff;
+  padding: 30px;
+  border-radius: 8px;
+}
+/* ========== BIOMATERIALS PAGE DESIGN ========== */
+
+.biomaterials-page header {
+  background: linear-gradient(to right, #a8e6cf, #dcedc1);
+  color: #1b3b2f;
+}
+
+.biomaterials-page nav {
+  background-color: #edf7ed;
+}
+
+.biomaterials-page nav a {
+  color: #1b3b2f;
+}
+
+.biomaterials-page nav a:hover {
+  color: #3b6b49;
+}
+
+.biomaterials-page section h2 {
+  color: #1b3b2f;
+  border-left: 5px solid #78c2a3;
+}
+
+.biomaterials-page section p,
+.biomaterials-page li {
+  color: #1f2a36;
+  font-size: 16.5px;
+}
+
+.biomaterials-page main {
+  background-color: #f4f9f4;
+  padding: 30px;
+  border-radius: 8px;
+}
+/* ========== METALS PAGE DESIGN ========== */
+
+.metals-page header {
+  background: linear-gradient(to right, #434343, #000000);
+  color: #ffffff;
+}
+
+.metals-page nav {
+  background-color: #f2f2f2;
+}
+
+.metals-page nav a {
+  color: #333333;
+}
+
+.metals-page nav a:hover {
+  color: #000000;
+}
+
+.metals-page section h2 {
+  color: #333333;
+  border-left: 5px solid #555555;
+}
+
+.metals-page section h3 {
+  color: #000000;
+  margin-top: 20px;
+}
+
+.metals-page section p,
+.metals-page li {
+  color: #1f2a36;
+  font-size: 16.5px;
+}
+
+.metals-page main {
+  background-color: #fafafa;
+  padding: 30px;
+  border-radius: 8px;
+}
 
