@@ -1,0 +1,187 @@
+/* ---------- GLOBAL SETTINGS ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #2c2c2c;
+  line-height: 1.7;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* ---------- NAVBAR ---------- */
+nav {
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #2c5364;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #0f2027;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #203a43;
+  border-left: 5px solid #2c5364;
+  padding-left: 12px;
+}
+
+section p {
+  font-size: 17px;
+  text-align: justify;
+}
+
+/* ---------- CARDS ---------- */
+.card {
+  background-color: white;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h3 {
+  font-size: 22px;
+  color: #0f2027;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.card a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2c5364;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #203a43;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 60px;
+  font-size: 14px;
+}
+/* ========== INDUSTRY PAGE SPECIAL DESIGN ========== */
+
+.industry-page header {
+  background: linear-gradient(to right, #283048, #859398);
+}
+
+.industry-page nav {
+  background-color: #eef3f7;
+}
+
+.industry-page nav a {
+  color: #283048;
+}
+
+.industry-page nav a:hover {
+  color: #000000;
+}
+
+.industry-page section h2 {
+  color: #283048;
+  border-left: 5px solid #859398;
+}
+
+.industry-page section p,
+.industry-page li {
+  color: #1f2a36;
+  font-size: 16.5px;
+}
+
+.industry-page main {
+  background-color: #f0f4f8;
+  padding: 30px;
+  border-radius: 8px;
+}
+/* ========== FUTURE PAGE SPECIAL DESIGN ========== */
+
+.future-page header {
+  background: linear-gradient(to right, #41295a, #2f0743);
+}
+
+.future-page nav {
+  background-color: #f2eef7;
+}
+
+.future-page nav a {
+  color: #41295a;
+}
+
+.future-page nav a:hover {
+  color: #000;
+}
+
+.future-page section h2 {
+  color: #41295a;
+  border-left: 5px solid #6a4bc3;
+}
+
+.future-page section p,
+.future-page li {
+  color: #2b2b3c;
+  font-size: 16.5px;
+}
+
+.future-page main {
+  background-color: #f6f3fb;
+  padding: 30px;
+  border-radius: 8px;
+}
+
